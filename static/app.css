@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+h1, p{
+    font-family: monospace;
+}
+
+button, p{
+    margin: 2rem;
+}
+
+#content{
+    padding: 4rem;
+}
