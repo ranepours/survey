@@ -8,6 +8,9 @@
     <title>Satisfaction Survey</title>
 </head>
 <body>
+    {% for msg in get_flashed_messages() %}
+    <p>{{ msg }}</p>
+    {% endfor %}
     <main id="content">
         {% block content %}
         <h1>{{survey.title}}</h1>
